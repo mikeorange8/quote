@@ -1,0 +1,181 @@
+  .heart {
+  background:url('https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png');
+  background-position: left;
+  background-repeat:no-repeat;
+  background-size:2900%;
+ }
+  .heart:hover {
+  background-position:right;
+ }
+ .animating {
+  animation: heart-burst .8s steps(28) 1;
+ }
+ @keyframes heart-burst {
+ from {background-position:left;}
+ to { background-position:right;}
+}
+.heart {
+  animation: heart-burst 1s infinity;
+}
+
+.headicons .list{
+	position: relative;
+	cursor: pointer;
+}
+.headicons .add{
+	position: relative;
+	cursor: pointer;
+}
+.headicons .list {		
+	background: url(../img/list.png);
+    background-size: 50px 50px;
+}
+.headicons .list:hover {
+	background: url(../img/listactive.png);
+    background-size: 50px 50px;
+}
+.headicons .add {		
+	background: url(../img/add.png);
+    background-size: 50px 50px;
+}
+.headicons .add:hover {
+	background: url(../img/addactive.png);
+    background-size: 50px 50px;
+}
+.headicons .login {		
+	background: url(../img/login.png);
+    background-size: 50px 50px;
+}
+.headicons .login:hover {
+	background: url(../img/loginactive.png);
+    background-size: 50px 50px;	}
+.form-control
+{
+	margin-bottom: 20px;
+	width: 100%;
+	vertical-align: top;
+}
+textarea.form-control{
+	resize:none;
+}
+
+.headicons .login{
+	position: relative;
+	cursor: pointer;
+}
+
+.content{
+	max-width: 640px;
+	margin: 0 auto;
+	padding: 0 10px;
+
+}
+
+.quote{
+	border-top: 2px  solid 	#CECECE; 
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-left: 15px;
+	margin-bottom: 40px;
+}
+
+
+.regform , .logform{
+	display:none;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.addquote{
+	display:none;
+}
+
+ #srchbtn.btn-danger{
+ 	position: relative;
+ 	background-color: #b80000;
+ 	outline: none;
+ 	bottom: 2px;
+ }
+
+  #regbtn.btn-default,
+  #logbtn.btn-default,
+  #addbtn.btn-danger,
+  #pgbtn.btn-danger
+  {
+  	background-color: #b80000;
+ 	outline: none;
+ 	color: white; 
+ 	width: 200px;
+	height: 40px;
+ }
+
+ #logbtn.btn-default{
+ 	margin-bottom: 20px;
+ }
+ #srchbtn.btn-danger:active,  
+ #addbtn.btn-danger:active,
+ #regbtn.btn-default:active,
+ #pgbtn.btn-primary:active,
+ #logbtn.btn-default:active
+ {
+ 	outline-color: #b80000;
+ 	background-color: #9E0000;
+ }
+
+#author, #date, #user{
+	font-size: 12px;
+	color: #898989;
+	margin-top: 10px; 
+}
+
+#date{
+	float: right;
+	margin-right: 15px; 
+	}
+#author, #user{
+	float:left;
+	margin-right: 15px;
+}
+
+.number_of_likes{
+
+    position: relative;
+    float: right;
+    left: 56px;
+    top:5px;
+    color: #898989;
+    
+}
+
+  .heart {
+  position: relative;
+  bottom: 10px;
+  cursor: pointer;
+  float: right;
+
+  height: 50px;
+  width: 50px;
+
+}
+.headicons{
+	font-size: 0;
+	line-height: 0;
+	text-align: center;
+	padding: 30px 0;
+	margin: 0;
+	list-style: none;
+}
+.headicons li{
+	display: inline-block;vertical-align: top;
+}
+.headicons a{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 10px;
+	width: 50px;
+	height: 50px;
+}
+.text-center{
+	text-align: center;
+}
+.form-block .form-group{margin-bottom: 0;}
